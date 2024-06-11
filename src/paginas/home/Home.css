@@ -8,3 +8,23 @@ body{
     font-style: normal;   
 }
 
+/* Adicione estas classes ao seu arquivo Home.css */
+
+.carousel-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px; /* Bordas arredondadas */
+  }
+  
+  .carousel .carousel-status {
+    display: none;
+  }
+  
+  .carousel .carousel .legend {
+    background: rgba(0, 0, 0, 0.5); /* Fundo translúcido para a legenda */
+    color: #fff; /* Cor do texto da legenda */
+    border-radius: 0 0 15px 15px; /* Bordas arredondadas apenas na parte inferior */
+    padding: 10px;
+  }
+  

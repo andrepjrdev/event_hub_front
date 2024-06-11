@@ -142,19 +142,19 @@ function FormularioPostagem() {
 
       <form onSubmit={gerarNovaPostagem} className="flex flex-col w-1/2 gap-4">
         <div className="flex flex-col gap-2">
-          <label htmlFor="titulo">Endereço</label>
+          <label htmlFor="titulo">Título do Evento</label>
           <input
             value={postagem.titulo}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             type="text"
-            placeholder="Endereço"
+            placeholder="Título"
             name="titulo"
             required
             className="border-2 border-slate-700 rounded-full p-2"
           />
         </div>
         <div className="flex flex-col gap-2">
-          <label htmlFor="titulo">Detalhes do local</label>
+          <label htmlFor="titulo">Participantes</label>
           <input
             value={postagem.texto}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -166,9 +166,9 @@ function FormularioPostagem() {
           />
         </div>
         <div className="flex flex-col gap-2">
-          <p>Cidade</p>
+          <p>Tema do Evento</p>
           <select name="tema" id="tema" className='border p-2 border-slate-900 rounded-full ' onChange={(e) => buscarTemaPorId(e.currentTarget.value)}>
-            <option value="" selected disabled>Selecione uma cidade</option>
+            <option value="" selected disabled>Selecione um Tema</option>
             {temas.map((tema) => (
               <>
                 <option value={tema.id} >{tema.descricao}</option>

@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthContext';
-import loginLogo from '../../assets/img/logoPerfil.png';
+import loginLogo from '../../assets/img/logo-ancora.jpg';
 import { toastAlerta } from '../../util/toastAlerta';
-import banner from '../../assets/img/pexels-magda-ehlers-pexels-2832772.jpg';
-import banner2 from '../../assets/img/pexels-andreas-l-2004808-3626111.jpg';
+import banner from '../../assets/img/perfil1.jpg';
+import banner2 from '../../assets/img/perfil2.png';
 
 function Perfil() {
   let navigate = useNavigate();

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../contexts/AuthContext';
 import './Footer.css';
-import footerImg from '../../assets/img/footer.png';
+import footerImg from '../../assets/img/logo-footer.png';
 
 function Footer() {
   const { usuario } = useContext(AuthContext);
@@ -10,7 +10,7 @@ function Footer() {
 
   if (usuario.token !== '') {
     footerComponent = (
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content bg-gradient-to-r from-blue-500 to-blue-700">
+      <footer className="footer items-center p-4 bg-neutral text-neutral-content bg-gray-800">
         <div className="container mx-auto flex justify-between items-center">
           <aside className="flex items-center gap-3">
             <img

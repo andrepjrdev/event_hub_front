@@ -65,18 +65,18 @@ function DeletarPostagem() {
   }
   return (
     <div className='container w-1/3 mx-auto'>
-      <h1 className='text-4xl text-center my-4'>Deletar Local</h1>
+      <h1 className='text-4xl text-center my-4'>Deletar Evento</h1>
 
-      <p className='text-center font-semibold mb-4'>Você tem certeza de que deseja apagar o local a seguir?</p>
+      <p className='text-center font-semibold mb-4'>Você tem certeza de que deseja apagar o evento a seguir?</p>
 
       <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
-        <header className='py-2 px-6 bg-gradient-to-r from-blue-500 to-blue-700 shadow-lg text-white font-bold text-2xl'>Local</header>
+        <header className='py-2 px-6 bg-gray-800 shadow-lg text-white font-bold text-2xl'>Evento</header>
         <div className="p-4">
           <p className='text-xl h-full'>{postagem.titulo}</p>
           <p>{postagem.texto}</p>
         </div>
         <div className="flex">
-          <button className='text-slate-100 bg-gradient-to-r from-blue-500 to-blue-700 shadow-lg w-full py-2' onClick={retornar}>Não</button>
+          <button className='text-slate-100 bg-gray-800 hover:bg-gray-400 shadow-lg w-full py-2' onClick={retornar}>Não</button>
           <button className='w-full text-slate-100 bg-red-500 hover:bg-red-400 flex items-center justify-center' onClick={deletarPostagem}>
             Sim
           </button>
