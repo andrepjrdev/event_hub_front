@@ -2,9 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import homeLogo from '../../assets/img/home-img.png';
-import carousel1 from '../../assets/img/carousel1.png';
-import carousel2 from '../../assets/img/carousel2.png';
-import carousel3 from '../../assets/img/carousel3.png';
+import carousel1 from '../../assets/img/pexels-bertellifotografia-3321791.jpg';
+import carousel2 from '../../assets/img/pexels-fauxels-3184325.jpg';
+import carousel3 from '../../assets/img/pexels-canvastudio-3153198.jpg';
 import './Home.css';
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
@@ -41,7 +41,7 @@ function Home() {
                     </svg>
                 </div>
                 <div className="flex justify-center px-4">
-                    <div className='container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 items-center py-1'>
+                    <div className='container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-30 items-center py-1'>
                         <div className="flex flex-col gap-4 items-center md:items-right text-center md:text-left">
                             <h2 className='text-3xl md:text-5xl text-gray-800 font-bold'>Seja bem-vindo!</h2>
                             <p className='text-lg md:text-xl text-gray-600'>

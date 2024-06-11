@@ -64,10 +64,10 @@ function Cadastro() {
 
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gradient-to-b from-white to-gray-400 h-screen">
+      <div className="relative isolate overflow-hidden bg-gradient-to-b from-white to-gray-800 h-screen">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-100 [mask-image:radial-gradient(60rem_64rem_at_top,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -159,7 +159,7 @@ function Cadastro() {
               <button className='rounded text-white bg-red-400 hover:bg-red-700 w-1/2 py-2' onClick={back}>
                 Cancelar
               </button>
-              <button className='rounded text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-500 shadow-lg w-1/2 py-2' type='submit'>
+              <button className='rounded text-white bg-gray-800 hover:to-gray-500 shadow-lg w-1/2 py-2' type='submit'>
                 Cadastrar
               </button>
             </div>
