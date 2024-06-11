@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Games.css';
 
+
+
 const quizQuestions = [
   {
     question: 'Qual a especialidade da Rede Ancora?',
@@ -77,7 +79,8 @@ const Games: React.FC = () => {
   };
 
   return (
-    <div className="quiz-container">
+  
+   <div className="quiz-container bg-gray-200">
       <h1>Quiz sobre a Rede Ancora</h1>
       {showScore ? (
         <div className="score-section">
@@ -122,6 +125,7 @@ const Games: React.FC = () => {
         </div>
       )}
     </div>
+    
   );
 };
 

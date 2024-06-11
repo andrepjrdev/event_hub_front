@@ -19,6 +19,7 @@ function Perfil() {
   }, [usuario.token]);
 
   return (
+    
     <div className='container mx-auto mt-5 rounded-2xl overflow-hidden'>
       <img className='w-full h-72 object-cover border-b-8 border-white' src={banner} alt="Capa do Perfil" />
       <img src={loginLogo} alt={`Foto de perfil de ${usuario.nome}`} className='rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10' />
