@@ -85,7 +85,7 @@ function Login() {
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
               />
             </div>
-            <button type="submit" className="rounded bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-500 shadow-lg  text-white w-1/2 py-2 flex justify-center">
+            <button type="submit" className="rounded bg-gray-800 hover:bg-gray-500 shadow-lg  text-white w-1/2 py-2 flex justify-center">
               {isLoading ? (
                 <RotatingLines
                   strokeColor="white"
@@ -103,7 +103,7 @@ function Login() {
 
             <p>
               Ainda não tem uma conta?{' '}
-              <Link to="/cadastro" className="text-blue-600 hover:underline">
+              <Link to="/cadastro" className="text-blue-800 hover:underline">
                 Cadastre-se
               </Link>
             </p>
