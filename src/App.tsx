@@ -20,6 +20,9 @@ import FormularioPostagem from './components/postagens/formularioPostagem/Formul
 import Perfil from './paginas/perfil/Perfil';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
 import Sobre from './paginas/sobre/Sobre';
+import Games from './paginas/games/Games';
+
+
 
 function App() {
   return (
@@ -44,6 +47,8 @@ function App() {
               <Route path="/deletarPostagem/:id" element={<DeletarPostagem />} />
               <Route path="/perfil" element={<Perfil />} />
               <Route path="/sobre" element={<Sobre />} /> 
+              <Route path="/games" element={<Games />} /> 
+              
             </Routes>
           </div>
           <Footer />

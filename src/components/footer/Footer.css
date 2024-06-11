@@ -11,3 +11,40 @@ body{
 .footer-icons svg {
   fill: #ffffff;
 }
+
+.footer {
+  background-color: #1a202c; /* Cor de fundo do rodapé */
+  color: #cbd5e0; /* Cor do texto */
+}
+
+.footer a {
+  color: #cbd5e0; /* Cor dos links */
+}
+
+.footer a:hover {
+  color: #a0aec0; /* Cor dos links ao passar o mouse */
+}
+
+.footer h3 {
+  color: #e2e8f0; /* Cor dos títulos das seções */
+}
+
+.footer-icons svg {
+  fill: #cbd5e0; /* Cor dos ícones */
+  transition: fill 0.3s ease;
+}
+
+.footer-icons svg:hover {
+  fill: #a0aec0; /* Cor dos ícones ao passar o mouse */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+

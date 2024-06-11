@@ -2,7 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import homeLogo from '../../assets/img/home-img.png';
-import carousel1 from '../../assets/img/carousel 1.png';
+import carousel1 from '../../assets/img/carousel1.png';
+import carousel2 from '../../assets/img/carousel2.png';
+import carousel3 from '../../assets/img/carousel3.png';
 import './Home.css';
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
@@ -66,15 +68,13 @@ function Home() {
                     >
                         <div>
                             <img className="carousel-image" src={carousel1} alt="Event 1" />
-                            <p className="legend">Event 1</p>
                         </div>
                         <div>
-                            <img className="carousel-image" src="https://via.placeholder.com/800x400" alt="Event 2" />
-                            <p className="legend">Event 2</p>
+                            <img className="carousel-image" src={carousel2} alt="Event 2" />               
                         </div>
                         <div>
-                            <img className="carousel-image" src="https://via.placeholder.com/800x400" alt="Event 3" />
-                            <p className="legend">Event 3</p>
+                            <img className="carousel-image" src={carousel3} alt="Event 3" />
+                            
                         </div>
                     </Carousel>
                 </div>

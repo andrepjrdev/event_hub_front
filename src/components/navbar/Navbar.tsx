@@ -4,7 +4,7 @@ import { AuthContext } from '../../contexts/AuthContext';
 import { toastAlerta } from '../../util/toastAlerta';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
-import loginLogo from '../../assets/img/logo-ancora.jpg';
+import loginLogo from '../../assets/img/logo-footer.png';
 import navlogo from '../../assets/img/caixa_texto.png';
 import './Navbar.css';
 
@@ -14,6 +14,7 @@ const navigation = [
   { name: 'Cadastrar Tema', href: '/cadastroTema', current: false },
   { name: 'Perfil', href: '/perfil', current: false },
   { name: 'Sobre', href: '/sobre', current: false },
+  { name: 'Games', href: '/games', current: false },
 ];
 
 function classNames(...classes) {
