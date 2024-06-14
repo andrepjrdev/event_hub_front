@@ -36,7 +36,7 @@ export default function Navbar() {
 
   if (usuario.token !== "") {
     return (
-      <Disclosure as="nav" className="bg-gray-800 fixed w-full z-10">
+      <Disclosure as="nav" className="bg-gray-800  ">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-18 ">

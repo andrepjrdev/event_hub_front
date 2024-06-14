@@ -16,7 +16,7 @@ function CardPostagem({post}: CardPostagemProps) {
           <h3 className='text-lg font-bold text-center uppercase text-white'>{post.usuario?.nome}</h3>
         </div>
         <div className='p-4 '>
-          <h4 className='text-lg font-semibold uppercase text-gray-900'>{post.titulo}</h4>
+          <h4 className='text-lg font-bold uppercase text-red-500'>{post.titulo}</h4>
           <p>{post.texto}</p>
           <p>Cidade: {post.tema?.descricao}</p>
           <p>Data: {new Intl.DateTimeFormat(undefined, {
